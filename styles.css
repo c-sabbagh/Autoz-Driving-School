@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: rgb(203, 178, 132);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ====================    NAV    ==================== */
+
+.nav {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+.nav__logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    padding: 24px 12px ;
+    margin-right: 24px;
+}
+
+/* ====================    HOME    ==================== */
+
+#home {
+    background-image: url(./assets/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 72px);
+    display: flex;
+    justify-content: center;
+}
+
+.content__wrapper--home {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    width: 750px;
+    font-size: 72px;
+    padding: 36px 24px;
+    background-color: var(--primary-color);
+}
+
+.subtitle {
+    background-color: white;
+    width: 900px;
+    padding: 24px 48px;
+}
+
+.home__CTA {
+    width: 250px;
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+}
+
+/* ====================    PACKAGES    ==================== */
+
+#packages {
+    margin: 24px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__title {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.packages {
+    margin: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.package {
+    background-color: lightgray;
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.heading {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.subheading {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    padding-bottom: 24px;
+    font-weight: 400;
+}
+
+.package__btn {
+    padding: 6px 24px;
+    margin-top: 12px;
+    background-color: var(--primary-color);
+}
