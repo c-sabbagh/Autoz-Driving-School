@@ -13,11 +13,14 @@ html {
 
 :root {
     --primary-color: rgb(203, 178, 132);
+    --primary-color: rgb(67, 161, 192);
+    --primary-color: rgb(183, 112, 112);
+    --primary-color: rgb(154, 144, 154);
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
 a {
     text-decoration: none;
@@ -49,11 +52,14 @@ a {
 .nav__links {
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .nav__link {
     padding: 24px 12px ;
     margin-right: 24px;
+    font-weight: 700;
+    color: #000;
 }
 
 /* ====================    HOME    ==================== */
@@ -88,10 +94,96 @@ a {
 }
 
 .home__CTA {
-    width: 250px;
+    width: 350px;
     background-color: var(--primary-color);
     padding: 12px 24px;
 }
+
+/* ====================    SERVICES    ==================== */
+
+#services {
+    margin: 60px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__title {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 48px 0px;
+}
+
+.copyright {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 24px;
+    width: 40%;
+    background-color: rgb(244, 244, 244);
+}
+
+.service__title {
+    font-size: 30px;
+    padding-bottom: 24px;
+}
+
+.service__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    padding-bottom: 12px;
+}
+
+.service__description2 {
+    padding-left: 24px;
+    padding-bottom: 48px;
+}
+
+.lessons__benefits {
+    font-size: 16px;
+    padding-left: 24px;
+    list-style: none;
+}
+
+.fa-check {
+    color: var(--primary-color);
+    padding-right: 8px;
+}
+
+.sub-service {
+    font-size: 25px;
+    padding: 12px 0px;
+}
+
+.sub-service__description {
+    padding: 0px 48px 24px;
+    line-height: 2;
+}
+
+.note {
+    padding-bottom: 24px;
+}
+
+.services__figure {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: #000;
+}
+
+.services__img {
+    width: 100%;
+}
+
 
 /* ====================    PACKAGES    ==================== */
 
@@ -102,30 +194,27 @@ a {
     align-items: center;
 }
 
-.page__title {
-    font-size: 48px;
-    font-weight: 700;
-    padding: 24px;
-}
-
 .packages {
-    margin: 12px 24px;
+    margin: 48px 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .package {
-    background-color: lightgray;
+    background-color: rgb(244, 244, 244);
     padding: 12px 12px;
+    margin: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     width: 30%;
+    border: solid;
 }
 
 .heading {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
     text-align: center;
     padding-bottom: 24px;
@@ -148,5 +237,6 @@ a {
 .package__btn {
     padding: 6px 24px;
     margin-top: 12px;
-    background-color: var(--primary-color);
+    background-color: #000;
+    color: #fff;
 }

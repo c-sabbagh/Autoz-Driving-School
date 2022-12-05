@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/914dfb5281.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Autoz Driving School</title>
   </head>
@@ -11,9 +15,9 @@
     <div class="nav row">
       <a href="#home" class="nav__logo nav__link">Autoz Driving School</a>
       <ul class="nav__links">
-        <li><a href="" class="nav__link">Home</a></li>
-        <li><a href="" class="nav__link">Packages</a></li>
-        <li><a href="" class="nav__link">Services</a></li>
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#packages" class="nav__link">Packages</a></li>
         <li><a href="" class="nav__link">Contact Us</a></li>
         <li><a href="" class="nav__link">License</a></li>
       </ul>
@@ -22,49 +26,175 @@
       <div class="content__wrapper--home">
         <h1 class="title">Autoz Driving School</h1>
         <h2 class="subtitle">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          nulla consequuntur illum,
+          A Ministry of Transportation (MTO) approved driving school, and a
+          Beginner Driver Education (B.D.E.) course provider.
         </h2>
         <h4 class="home__CTA">
-          Call: xxx-xxx-xxxx <br />
-          E-mail: contact@xxx.com
+          Call: 613-884-1705 <br />
+          E-mail: contact@AutozDrivingSchool.com
         </h4>
       </div>
     </section>
+
+    <!-- **************************************   SERVICES     ******************************************** -->
+
+    <section id="services">
+      <h1 class="page__title">Services</h1>
+      <div class="row">
+        <div class="wrapper">
+          <figure class="services__figure">
+            <img class="services__img" src="./assets/macbook1.jpg" alt="" />
+          </figure>
+          <div class="copyright">
+            <h2 class="service__title">B.D.E. Course <br />
+              (Beginner Driver Education)</h2>
+              <h3 class="service__description">
+                This course consists of:
+                <ul>
+                  <li class="lessons__benefits">
+                    <i class="fa-solid fa-check"></i>20 hours of theory
+                  </li>
+                  <li class="lessons__benefits">
+                    <i class="fa-solid fa-check"></i>10 hours of homework
+                  </li>
+                  <li class="lessons__benefits">
+                    <i class="fa-solid fa-check"></i>10 hours in-car training
+                  </li>
+                </ul>
+              Upon the completion of this <b>government-approved</b> B.D.E.
+            course, you will receive an online certificate. <br />
+            Your student driver record will be updated through
+            <b> the Ministry of Transportation </b> to show that you have
+            completed the course.
+            </h3>
+            <h3 class="sub-service">Price: $x</h3>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="copyright">
+            <h2 class="service__title">In-Car Driving Lessons</h2>
+            <h3 class="service__description">
+              Private one-on-one in-car driving lessons will:
+              <ul>
+                <li class="lessons__benefits">
+                  <i class="fa-solid fa-check"></i> Enhance your driving skills
+                </li>
+                <li class="lessons__benefits">
+                  <i class="fa-solid fa-check"></i>Give you a complete idea of
+                  actual traffic conditions and all the rules & regulations
+                  regarding the road safety
+                </li>
+                <li class="lessons__benefits">
+                  <i class="fa-solid fa-check"></i>Help you to become a
+                  responsible driver when you hit the road
+                </li>
+              </ul>
+            </h3>
+            <h3 class="sub-service">Prices</h3>
+            <ul class="sub-service__description">
+              <li class="service__price">1 hour : $x</li>
+              <li class="service__price">2 hours: $x</li>
+            </ul>
+            <h5 class="note">
+              <i> ** Our instructors can speak English, French and Arabic **</i>
+            </h5>
+          </div>
+          <figure class="services__figure">
+            <img class="services__img" src="./assets/female.jpg" alt="" />
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="services__figure">
+            <img class="services__img" src="./assets/alone.jpg" alt="" />
+          </figure>
+          <div class="copyright">
+            <h2 class="service__title">G2/G Road Test</h2>
+            <h3 class="service__description service__description2">
+              We provide car rental for the G2 and Full G road tests. This package
+              includes a 1 hour refresher lesson before your road test.
+            </h3>
+            <h3 class="sub-service">Prices</h3>
+            <ul class="sub-service__description">
+              <li class="service__price">G1 exit road test “G2”: $x</li>
+              <li class="service__price">G2 exit road test “G”: $x</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **************************************   PACKAGES     ******************************************** -->
+
     <section id="packages">
       <h1 class="page__title">Packages</h1>
       <div class="packages row">
         <div class="package">
-          <h1 class="heading">BDE Course <br> (Beginner Driver Education)</h1>
-          <h2 class="subheading">Price</h2>
+          <h1 class="heading">
+            Driving Lessons <br />
+            5 hours in-car training
+          </h1>
+          <h2 class="subheading">$x</h2>
           <h3 class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            neque ab ipsum, necessitatibus eaque omnis sit temporibus nisi
-            mollitia obcaecati blanditiis vel reiciendis illo?
+            Lorem ipsum dolor 
           </h3>
           <button class="package__btn">SELECT</button>
         </div>
         <div class="package">
-          <h1 class="heading">BDE Course <br> + 5 extra hours in-car training</h1>
-          <h2 class="subheading">Price</h2>
+          <h1 class="heading">
+            Driving Lessons <br />
+            10 hours in-car training
+          </h1>
+          <h2 class="subheading">$x</h2>
           <h3 class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            neque ab ipsum, necessitatibus eaque omnis sit temporibus nisi
-            mollitia obcaecati blanditiis vel reiciendis illo?
+            Lorem ipsum dolor 
           </h3>
           <button class="package__btn">SELECT</button>
         </div>
         <div class="package">
-          <h1 class="heading">BDE Course <br> + 10 extra hours in-car training</h1>
-          <h2 class="subheading">Price</h2>
+          <h1 class="heading">
+            Driving Lessons <br />
+            15 hours in-car training
+          </h1>
+          <h2 class="subheading">$x</h2>
           <h3 class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            neque ab ipsum, necessitatibus eaque omnis sit temporibus nisi
-            mollitia obcaecati blanditiis vel reiciendis illo?
+            Lorem ipsum dolor 
+          </h3>
+          <button class="package__btn">SELECT</button>
+        </div>
+        <div class="package">
+          <h1 class="heading">
+            B.D.E. Course <br />
+            + 5 extra hours in-car training
+          </h1>
+          <h2 class="subheading">$x</h2>
+          <h3 class="description">
+            Lorem ipsum dolor 
+          </h3>
+          <button class="package__btn">SELECT</button>
+        </div>
+        <div class="package">
+          <h1 class="heading">
+            B.D.E. Course <br />
+            + 10 extra hours in-car training
+          </h1>
+          <h2 class="subheading">$x</h2>
+          <h3 class="description">
+            Lorem ipsum dolor
           </h3>
           <button class="package__btn">SELECT</button>
         </div>
       </div>
+      <h5 class="note">
+        <i> ** All prices mentioned above include taxes **</i>
+      </h5>
     </section>
+
+    <!-- **************************************   CONTACT US     ******************************************** -->
+
+    <section id="contact-us">
+      
+    </section>
+
+
   </body>
 </html>
