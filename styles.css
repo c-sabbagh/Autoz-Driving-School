@@ -18,6 +18,7 @@ position: relative;
     --primary-color: rgb(154, 144, 154);
     --primary-color: rgba(244,189,64);
     --primary-color: #242424;
+    /* --primary-color: rgb(8, 101, 129); */
 }
 
 a {
@@ -30,15 +31,21 @@ a {
     margin: 0 auto;
 }
 
+.red {
+    color: red;
+}
+
 /* ====================    NAV    ==================== */
 
 .nav {
     height: 72px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: fixed;
     background-color: #fff;
     border-bottom: 1px solid #818181;
+    z-index: 1000;
 }
 
 .nav__logo {
@@ -84,20 +91,22 @@ a {
     width: 750px;
     font-size: 72px;
     padding: 36px 24px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: var(--primary-color);
 }
 
 .subtitle {
+    font-size: 40px;
     background-color: white;
     width: 900px;
     padding: 24px 48px;
 }
 
 .home__CTA {
-    width: 350px;
-    color: #fff;
-    background-color: var(--primary-color);
+    font-size: 30px;
+    width: 600px;
+    color: white;
+    background-color: #242424;
     padding: 12px 24px;
 }
 
@@ -327,3 +336,6 @@ footer {
 .test__link {
     color: rgb(78, 88, 226);
 }
+
+/* ====================    RESPONSIVNESS    ==================== */
+
